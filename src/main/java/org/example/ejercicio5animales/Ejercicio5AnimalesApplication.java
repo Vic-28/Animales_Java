@@ -2,12 +2,18 @@ package org.example.ejercicio5animales;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class Ejercicio5AnimalesApplication {
+public class Ejercicio5AnimalesApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(Ejercicio5AnimalesApplication.class, args);
     }
 
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(Ejercicio5AnimalesApplication.class);
+    }
 }
