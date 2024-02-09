@@ -12,7 +12,7 @@
     <artifactId>Ejercicio-5-Animales</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Ejercicio-5-Animales</name>
-    <packaging>wrap</packaging>
+    <packaging>war</packaging>
     <description>Ejercicio-5-Animales</description>
     <properties>
         <java.version>17</java.version>
@@ -64,6 +64,11 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
