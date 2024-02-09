@@ -1,0 +1,10 @@
+org\example\ejercicio5animales\services\AnimalServiceJpalmpl.class
+org\example\ejercicio5animales\interfaces\AnimalService.class
+org\example\ejercicio5animales\interfaces\ClaseService.class
+org\example\ejercicio5animales\model\Clase.class
+org\example\ejercicio5animales\model\Animal.class
+org\example\ejercicio5animales\repository\AnimalRepository.class
+org\example\ejercicio5animales\repository\ClaseRepository.class
+org\example\ejercicio5animales\controllers\AnimalController.class
+org\example\ejercicio5animales\Ejercicio5AnimalesApplication.class
+org\example\ejercicio5animales\services\ClaseServiceJpa.class
